@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+import '../src/plugins/element'
+import '../src/assets/css/global.css'
+
 Vue.config.productionTip = false
 
 new Vue({
